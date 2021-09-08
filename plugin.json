@@ -1,0 +1,32 @@
+{
+  "name": "Google Ad Conversion Tracking",
+  "config": [
+    {
+      "key": "privateKey",
+      "name": "JSON file with your private key",
+      "type": "attachment",
+      "secret": true,
+      "required": true
+    },
+    {
+      "key": "developerToken",
+      "name": "Developer Token",
+      "type": "string",
+      "required": true
+    },
+    {
+      "key": "customerId",
+      "hint": "In the format 123-345-9876",
+      "name": "Customer ID",
+      "type": "string",
+      "required": true
+    },
+    {
+      "key": "managerId",
+      "hint": "In the format 123-345-9876",
+      "name": "Manager Customer ID",
+      "type": "string",
+      "required": true
+    }
+  ]
+}
